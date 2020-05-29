@@ -1,0 +1,34 @@
+- title: Task 1.1 General Support
+  description: >
+    Staff familiarisation with new/existing code
+  due_on: 2020-06-30T12:00:00AWST
+  issue:
+    - title: Provide new function guidance
+      body: Sit with staff as required when running new functions to demonstrate usage and solve process issues
+    - title: Provide guidance on existing functions and processes
+      body: Sit with staff and resolve issues surrounding unexpected results
+      labels: [high]
+
+- title: Task 1.2 HAB Species
+  description: >
+    Design conditionally formatted output table to integrate into existing 
+    weekly PowerPoint reports on target species and threshold levels
+  due_on: 2020-06-30T12:00:00AWST
+  issue:
+    - title: Starting Data
+      body: Get starting data and full brief on expected outputs
+    - title: Research Huxtable R package
+      body: Deep dive into abilities and limitations with regards to data on hand
+    - title: Data Munge
+      body: Reshape and wrangle data to suit internal Huxtable function calls
+    - title: Conditional Formatting
+      body: Apply various formatting functions on split data and recombine for output 
+    - title: Testing
+      body: Iterative testing on various input data ensure desired outputs
+    - title: Deliver Prototype
+      body: Deliver prototype function and give training to staff re-usage. Client testing phase
+    - title: Refactor and Document
+      body: Rewrite and clean code, incorporate roxygen documentation for rivRmon integration
+    - title: Package Integration
+      body: Run final tests ahead of new package release making sure it passes integration testing (Travis CI and Appveyor)
+      
